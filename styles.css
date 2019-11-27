@@ -1,4 +1,7 @@
 body {
     color: blue;
     background-color: red;
+    background-image: url("Grumpycat.jpg");
+    background-repeat: no-repeat;
+    background-size: 1000px;
 }
