@@ -3,10 +3,12 @@ body {
     margin:0px;
     padding:0px;
     color:#777777;
+    background-color: violet;
+    background-image:url("../assets/images/woven_@2X.png");
 }
 
 h1 {
-    position:absolute;
+    float: left;
     background-color:#4aaaa5;
     width: 275px;
     height: 102px;
@@ -20,10 +22,17 @@ h1 {
     line-height: 100px;
 }
 
+.main-header-content {
+    margin:0 auto;
+    width:70%;
+}
 header {
     height:100px;
     background-color:#ffffff;
     border-bottom: 2px solid #cccccc;
+}
+ul {
+    margin-top: 30px;
 }
 
 ul li {
@@ -48,9 +57,9 @@ h2 {
     color:#4aaaa5;   
 }
 #content {
-    width:500px;
-    height:500px;
-    left:100px;
+    width:70%;
+    height: 50%;
+    margin:0 auto;
     background-color:#ffffff;
 }
 
