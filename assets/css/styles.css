@@ -9,7 +9,7 @@ html, body {
 }
 
 body {
-    height:960px;
+    height:750px;
     margin:0px;
     padding:0px;
     color:#777777;
@@ -93,7 +93,7 @@ h2 {
     border:3px solid #dddddd;
 }
 
-.about {
+#about {
     margin-top:35px;
     margin-left:100px;
     margin-right:100px;
@@ -111,6 +111,12 @@ h2 {
   color: #ffffff;
   text-align: center;
   border-top:8px solid #4aaaa5;
+}
+
+.coming-soon {
+    color:#777777;
+    font-size:x-large;
+    text-align:center;
 }
 
 input[type=text], select, textarea {
