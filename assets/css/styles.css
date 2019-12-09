@@ -32,7 +32,7 @@ h1 {
     line-height: 100px;
 }
 
-.main-header-content {
+.content {
     margin:0 auto;
     width:70%;
 }
@@ -74,17 +74,14 @@ h2 {
     margin-left:40px;
     margin-right:40px;
 }
-#content {
-    width:70%;
+section.content {
     height: 50%;
-    margin:0 auto;
+    min-height:400px;
     background-color:#ffffff;
 }
 
 #mypicture {
     float:left;
-    margin-right:40px;
-
 }
 
 #mypicture img {
@@ -93,10 +90,9 @@ h2 {
     border:3px solid #dddddd;
 }
 
-#about {
-    margin-top:35px;
-    margin-left:100px;
-    margin-right:100px;
+p {
+    margin-left:40px;
+    margin-right:40px;
 }
 
 .footer, .push {
